@@ -1,3 +1,53 @@
 body{
-    color: green;
+    margin: 0px;
+    background-color: black;
 }
+header{
+    background-image: url('https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
+    background-repeat: none;
+    background-position: center;
+    padding: 5px;
+}
+i{
+    font-size: 100px;
+    color: rgb(125, 144, 155);
+    position: relative;
+    left: 10px;
+}
+nav{
+    float: right;
+    padding: 30px;
+}
+a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(125, 144, 155);
+    font-size: 25px;
+    padding: 15px;
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    color: rgb(125, 144, 155);
+}
+section{
+    height: 500px;
+    width: 70%;
+    position: relative;
+    left: 14%;
+    background-image: url('https://images.photowall.com/products/43298/solar-system.jpg?h=699&q=85');
+    background-repeat: none;
+    background-size: cover;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    color: rgb(125, 144, 155);
+    position: relative;
+    top: 40%;
+    left: 4%;
+}
+/* div{
+    column-count: 9;
+} */
