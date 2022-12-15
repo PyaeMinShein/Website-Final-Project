@@ -6,7 +6,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
     <!--awesome icon-->
-    <!-- <link rel="stylesheet" href="./CSS/all.min.css"> -->
+    <link rel="stylesheet" href="./CSS/all.min.css">
     <!-- google font (Yanone Kaffeesatz)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,26 +19,69 @@
 </head>
 <body>
     <header>
-        <i class="fa-solid fa-user-astronaut"></i>
+        <a href="index.html">
+        <i class="fa-solid fa-user-astronaut header-icon"></i>
+        </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a class="nav-item" href="index.html">Home</a>
+            <a class="nav-item" href="about.html">About</a>
+            <a class="nav-item" href="contact.html">Contact</a>
         </nav>
     </header>    
     <section>
         <p>Welcome to Galaxy! Here, you can explore about all the planets in our galaxy. </p>
     </section>
-    <div>
-        <img scr="/Users/pyaemin/Desktop/Website-Final-Project/img/Earth.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80">
-        <img scr="./Img/Sun.jpeg" alt="" width="80" height="80"> 
+    <div class="row">
+        <div class="box">
+            <a href="sun.html"> <img src="./img/Sun.jpeg" height="80" width="80" alt=""></a>
+            <h3>Sun</h3>
+        </div>
+        <div class="box">
+            <a href="mercury.html"> <img src="./img/Mercury.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Mercury</h3>
+        </div>
+        <div class="box">
+            <a href="venus.html"><img src="./img/Venus.jpeg" height="80" width="80" alt=""></a>
+            <h3>Venus</h3>
+        </div>
+        <div class="box">
+            <a href="earth.html"> <img src="./img/Earth.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Earth</h3>
+        </div>
+        <div class="box">
+            <a href="mars.html"> <img src="./img/Mars.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Mars</h3>
+        </div>
     </div>
+    <div class="row">
+        <div class="box">
+            <a href="jupiter.html"> <img src="./img/Jupiter.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Jupiter</h3>
+        </div>
+        <div class="box">
+            <a href="saturn.html"> <img src="./img/Saturn.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Saturn</h3>
+        </div>
+        <div class="box">
+            <a href="uranus.html"> <img src="./img/Uranus.jpeg" height="80" width="80" alt=""></a>
+            <h3>Uranus</h3>
+        </div>
+        <div class="box">
+            <a href="neptune.html"> <img src="./img/Neptune.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Neptune</h3>
+        </div>
+        <div class="box">
+            <a href="pluto.html"> <img src="./img/Pluto.jpeg" height="80" width="80" alt=""> </a>
+            <h3>Pluto</h3>
+        </div>
+    </div>
+    <footer>
+        <a href="index.html">
+            <i class="fa-solid fa-user-astronaut footer-icon"></i>
+        </a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="https://spacenews.com">Space News</a>
+    </footer>
 </body>
 </html>
