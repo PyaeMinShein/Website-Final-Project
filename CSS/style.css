@@ -50,38 +50,40 @@ section{
     background-repeat: none;
     background-size: cover;
 }
+h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    color: rgb(125, 144, 155);
+    position: relative;
+    top: -25px;
+    left: 30%;
+}
 p{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 40px;
     color: rgb(125, 144, 155);
     position: relative;
     top: 40%;
-    left: 4%;
+    left: 4%; 
 }
-.first{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    column-count: 10;
+.row{
+    /* border: 10px solid aquamarine; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    column-count: 5;
 }
-.second{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    column-count: 10;
+.box{
+    /* border: 10px solid palegreen; */
 }
 img{
-    border: 10px solid red;
-}
-.text1{
-    margin-bottom: 20px;
-    column-count: 5;
-}
-.text2{
-    margin-bottom: 20px;
-    column-count: 5;
+    /* border: 10px solid red; */
+    position: relative;
+    left: 25%;
+
 }
 footer{
     background-image: url('https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
     background-repeat: none;
     background-position: center;
-    height: 200px;
+    height: 150px;
 }
