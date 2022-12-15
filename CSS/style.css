@@ -6,13 +6,14 @@ header{
     background-image: url('https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
     background-repeat: none;
     background-position: center;
-    padding: 5px;
+    padding: 7px;
+    padding-top: 0px;
 }
 i{
     font-size: 100px;
     color: rgb(125, 144, 155);
     position: relative;
-    left: 10px;
+    left: -10px;
 }
 nav{
     float: right;
@@ -27,11 +28,20 @@ a{
     top: 5px;
     text-decoration: none;
 }
-a:hover{
+.nav-item:hover{
     background-color: black;
     color: rgb(125, 144, 155);
 }
+.header-icon{
+    background-color: none;
+}
+.footer-icon{
+    float: right;
+    font-size: 100pt;
+}
 section{
+    margin-top: 100px;
+    margin-bottom: 100px;
     height: 500px;
     width: 70%;
     position: relative;
@@ -48,6 +58,30 @@ p{
     top: 40%;
     left: 4%;
 }
-/* div{
-    column-count: 9;
-} */
+.first{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    column-count: 10;
+}
+.second{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    column-count: 10;
+}
+img{
+    border: 10px solid red;
+}
+.text1{
+    margin-bottom: 20px;
+    column-count: 5;
+}
+.text2{
+    margin-bottom: 20px;
+    column-count: 5;
+}
+footer{
+    background-image: url('https://images.unsplash.com/photo-1445905595283-21f8ae8a33d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80');
+    background-repeat: none;
+    background-position: center;
+    height: 200px;
+}
