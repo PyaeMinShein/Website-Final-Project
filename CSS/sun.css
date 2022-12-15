@@ -8,5 +8,10 @@ p{
     font-size: 25px;
 }
 iframe{
+    margin-top: 100px;
+    margin-bottom: 100px;
     height: 50vh;
+    width: 60%;
+    position: relative;
+    left: 20%;
 }
